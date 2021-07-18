@@ -1,0 +1,17 @@
+Become the wealthiest player through buying, renting and selling of property and force other players into bankruptcy.
+1)Each player's token is placed  on the corner marked "GO", and dice can be rolled to move his piece the number of spaces indicated by the dice.
+Make sure to press end turn once your turn is over
+2)Two or more tokens may rest on the same space at the same time.
+3)Depending on the space the token reaches, you may buy the property, or be obliged to pay rent, pay taxes, draw a Chance or Community Chest card, Go To Jail, or etc...
+4)Each time a player's token lands on or passes over GO, Rs 500 is credited to the player.
+5)When you land on an unowned property you can buy that property from the Bank at its shown price.
+6)When you land on a property that is owned by another player, the owner collects rent from you in accordance with the shown rent.
+7)When you land on community chest or chance random tasks are shown and money is credited or debited in accordance with them.
+8)When you land on income tax you pay a tax of Rs250
+9)When you land on Jail you pay a penalty of Rs500
+10)When you land on go to jail you are sent to jail and Rs500 is debited as penalty.
+11)You can build a house on the land that you own when you land on it again after buying.
+12)Building a house doubles the rent of that land.
+13)When you press the end game button, the game ends and displays the name of the winner(the one with highest money+price of all lands that he owns).
+14)Rs10000 is given to every one at the beggining.
+15)current balance is shown inside brackets besides each player's names.

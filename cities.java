@@ -1,0 +1,355 @@
+// city names
+public class cities {
+    public String C[]=new String[32];
+    public int R[]=new int[32];
+    public int P[]=new int[32];
+    public cities(){
+    C[0]="Go";
+    C[1]="Mediteranian Avenue";
+    C[2]="Community Chest";
+    C[3]="Italic Avenue";
+    C[4]="Income Tax";
+    C[5]="Reading Railroad";
+    C[6]="Oriental Avenue";
+    C[7]="Chance";
+    C[8]="Jail";
+    C[9]="St.Charle's Place";
+    C[10]="Electric Company";
+    C[11]="States Avenue";
+    C[12]="Viriginiya Avenue";
+    C[13]="Peninsylvenia Railroad";
+    C[14]="St.James' Place";
+    C[15]="Community Chest";
+    C[16]="Free Parking";
+    C[17]="Kentucky Avenue";
+    C[18]="Chance";
+    C[19]="Indiana Avenue";
+    C[20]="Illinors Avenue";
+    C[21]="B&O Railroad";
+    C[22]="Atlantic Avenue";
+    C[23]="Community Chest";
+    C[24]="Go to Jail";
+    C[25]="Pacific Avenue";
+    C[26]="North Carolina Avenue";
+    C[27]="Ventinor Avenue";
+    C[28]="Peninsylvenia Avenue";
+    C[29]="Short Line";
+    C[30]="Park Place";
+    C[31]="Chance";
+
+    R[0]=0;
+    P[0]=0;
+    R[1]=120;
+    P[1]=600;
+    R[2]=0;
+    P[2]=0;
+    R[3]=120;
+    P[3]=600;
+    R[4]=250;
+    P[4]=0;
+    R[5]=160;
+    P[5]=800;
+    R[6]=140;
+    P[6]=700;
+    R[7]=0;
+    P[7]=0;
+    R[8]=500;
+    P[8]=0;
+    R[9]=200;
+    P[9]=1000;
+    R[10]=120;
+    P[10]=600;
+    R[11]=240;
+    P[11]=1200;
+    R[12]=160;
+    P[12]=800;
+    R[13]=140;
+    P[13]=700;
+    R[14]=160;
+    P[14]=800;
+    R[15]=0;
+    P[15]=0;
+    R[16]=0;
+    P[16]=0;
+    R[17]=200;
+    P[17]=1000;
+    R[18]=0;
+    P[18]=0;
+    R[19]=170;
+    P[19]=850;
+    R[20]=120;
+    P[20]=600;
+    R[21]=240;
+    P[21]=1200;
+    R[22]=160;
+    P[22]=800;
+    R[23]=0;
+    P[23]=0;
+    R[24]=0;
+    P[24]=0;
+    R[25]=300;
+    P[25]=1500;
+    R[26]=180;
+    P[26]=900;
+    R[27]=180;
+    P[27]=900;
+    R[28]=200;
+    P[28]=1000;
+    R[29]=170;
+    P[29]=850;
+    R[30]=140;
+    P[30]=700;
+    R[31]=0;
+    P[31]=0;
+    }
+    
+    
+}
+// coordinates for pieces x[i][j] => x coordinate for piece of player i in city j 
+//                        y[i][j] => y coordinate for piece of player i in city j 
+class coordinates{
+    public int x[][]=new int[4][32];
+    public int y[][]=new int[4][32];
+    // public int z[][]=new int[4][32];
+
+    public coordinates(){
+    x[0][0]=485;
+    x[0][1]=555;
+    x[0][2]=625;
+    x[0][3]=695;
+    x[0][4]=765;
+    x[0][5]=835;
+    x[0][6]=905;
+    x[0][7]=975;
+    x[0][8]=1075;
+    x[0][9]=1090;
+    x[0][10]=1090;
+    x[0][11]=1090;
+    x[0][12]=1090;
+    x[0][13]=1090;
+    x[0][14]=1090;
+    x[0][15]=1090;
+    x[0][16]=1090;
+    x[0][17]=920;
+    x[0][18]=850;
+    x[0][19]=780;
+    x[0][20]=710;
+    x[0][21]=640;
+    x[0][22]=570;
+    x[0][23]=500;
+    x[0][24]=400;
+    x[0][25]=385;
+    x[0][26]=385;
+    x[0][27]=385;
+    x[0][28]=385;
+    x[0][29]=385;
+    x[0][30]=385;
+    x[0][31]=385;
+    x[1][0]=470;
+    x[1][1]=540;
+    x[1][2]=610;
+    x[1][3]=680;
+    x[1][4]=750;
+    x[1][5]=820;
+    x[1][6]=890;
+    x[1][7]=960;
+    x[1][8]=1030;
+    x[1][9]=1090;
+    x[1][10]=1090;
+    x[1][11]=1090;
+    x[1][12]=1090;
+    x[1][13]=1090;
+    x[1][14]=1090;
+    x[1][15]=1090;
+    x[1][16]=1090;
+    x[1][17]=935;
+    x[1][18]=865;
+    x[1][19]=795;
+    x[1][20]=725;
+    x[1][21]=655;
+    x[1][22]=585;
+    x[1][23]=515;
+    x[1][24]=415;
+    x[1][25]=385;
+    x[1][26]=385;
+    x[1][27]=385;
+    x[1][28]=385;
+    x[1][29]=385;
+    x[1][30]=385;
+    x[1][31]=385;
+    //FOR THIRD PLAYER
+    for(int i=0;i<=8;i++)
+    {
+        x[2][i]=x[1][i]-15;
+    }
+    for(int i=9;i<=16;i++)
+    {
+        x[2][i]=x[1][i];
+    }
+    for(int i=17;i<=24;i++)
+    {
+        x[2][i]=x[1][i]+15;
+    }
+    for(int i=25;i<32;i++)
+    {
+        x[2][i]=x[1][i];
+    }
+    
+    // FOR 4th PLAYER
+    for(int i=0;i<=8;i++)
+    {
+        x[3][i]=x[2][i]-15;
+    }
+    for(int i=9;i<=16;i++)
+    {
+        x[3][i]=x[2][i];
+    }
+    for(int i=17;i<=24;i++)
+    {
+        x[3][i]=x[2][i]+15;
+    }
+    for(int i=25;i<32;i++)
+    {
+        x[3][i]=x[2][i];
+    }
+    y[0][0]=85;
+    y[0][1]=85;
+    y[0][2]=85;
+    y[0][3]=85;
+    y[0][4]=85;
+    y[0][5]=85;
+    y[0][6]=85;
+    y[0][7]=85;
+    y[0][8]=85;
+    y[0][9]=255;
+    y[0][10]=325;
+    y[0][11]=395;
+    y[0][12]=465;
+    y[0][13]=535;
+    y[0][14]=605;
+    y[0][15]=675;
+    y[0][16]=775;
+    y[0][17]=790;
+    y[0][18]=790;
+    y[0][19]=790;
+    y[0][20]=790;
+    y[0][21]=790;
+    y[0][22]=790;
+    y[0][23]=790;
+    y[0][24]=790;
+    y[0][25]=620;
+    y[0][26]=550;
+    y[0][27]=480;
+    y[0][28]=410;
+    y[0][29]=340;
+    y[0][30]=270;
+    y[0][31]=200;
+    y[1][0]=85;
+    y[1][1]=85;
+    y[1][2]=85;
+    y[1][3]=85;
+    y[1][4]=85;
+    y[1][5]=85;
+    y[1][6]=85;
+    y[1][7]=85;
+    y[1][8]=85;
+    y[1][9]=240;
+    y[1][10]=310;
+    y[1][11]=380;
+    y[1][12]=450;
+    y[1][13]=520;
+    y[1][14]=590;
+    y[1][15]=660;
+    y[1][16]=760;
+    y[1][17]=790;
+    y[1][18]=790;
+    y[1][19]=790;
+    y[1][20]=790;
+    y[1][21]=790;
+    y[1][22]=790;
+    y[1][23]=790;
+    y[1][24]=790;
+    y[1][25]=635;
+    y[1][26]=565;
+    y[1][27]=495;
+    y[1][28]=425;
+    y[1][29]=355;
+    y[1][30]=285;
+    y[1][31]=215;
+    // FOR THIRD PLAYER
+    for(int j=0;j<9;j++)
+    {
+       y[2][j]=y[1][j];
+    }
+    for(int j=9;j<16;j++)
+    {
+       y[2][j]=y[1][j]-15;
+    }
+    for(int j=16;j<24;j++)
+    {
+       y[2][j]=y[1][j];
+    }
+    for(int j=24;j<32;j++)
+    {
+       y[2][j]=y[1][j]+15;
+    }
+
+    // For 4th player
+    for(int j=0;j<9;j++)
+    {
+       y[3][j]=y[2][j];
+    }
+    for(int j=9;j<16;j++)
+    {
+       y[3][j]=y[2][j]-15;
+    }
+    for(int j=16;j<24;j++)
+    {
+       y[3][j]=y[2][j];
+    }
+    for(int j=24;j<32;j++)
+    {
+       y[3][j]=y[2][j]+15;
+    }
+    
+
+    }
+    
+}
+class owns
+{
+    public int O[]=new int[32];
+    owns()
+    {
+        for(int i=0;i<32;i++)
+        {
+            O[i]=-1;
+        }
+    }
+}
+class _communityChest
+{
+    String CC[]=new String[6];
+    _communityChest()
+    {
+        CC[0]="Pay Rs.100 to all due to miss behaviour";
+        CC[1]="Woah.....you received a Birthday gift of Rs.50 from each players";
+        CC[2]="pay Fine of Rs.250 for parking in NO-PARKING";
+        CC[3]="Fine of Rs.1000 for commiting an ACCIDENT";
+        CC[4]="You won a Lottery of Rs 500";
+        CC[5]="Annual CreditCard charges Rs 200";
+    }
+}
+class _chance
+{
+    String CH[]=new String[6];
+    _chance()
+    {
+        CH[0]="Hospital fee - Rs250 debited";
+        CH[1]=" Income tax refund - Rs400 credited";
+        CH[2]="Rs500 credited";
+        CH[3]=" Consultancy fee - Rs 300 debited";
+        CH[4]="Sale of stocks - Rs 200 credited";
+        CH[5]=" Buisness loss - Rs 500 debited";
+    }
+}
