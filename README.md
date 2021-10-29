@@ -12,3 +12,7 @@ How to run :-
 -> you can run the the game using the .jar file present inside MONOPOLY(JAR) folder
 
 -> if it does not run copy everything into a folder and run the monopoly.java file
+
+![Screenshot (238)](https://user-images.githubusercontent.com/87127022/139449247-d769faef-2bf1-4007-a528-53bebd3b30f3.png)
+
+
