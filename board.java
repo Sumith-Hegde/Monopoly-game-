@@ -33,7 +33,7 @@ public class board extends JFrame implements ActionListener
     // numbers on faces of dice
     int face1,face2;
     // icon of the frame
-    ImageIcon icon=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/icon.jpg");
+    ImageIcon icon=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/icon.jpg");
     // buttons for all 32 places
     static JButton btns[]=new JButton[32];
     // buttons for all players
@@ -47,16 +47,16 @@ public class board extends JFrame implements ActionListener
     JButton build=new JButton("build");
     Cursor cur = new Cursor(Cursor.HAND_CURSOR);
     // images for corner places
-    ImageIcon city1=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/123.jpg");
-    ImageIcon jail=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/jail2.jpg");                                 
-    ImageIcon parking=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/parking2.jpg");                                 
-    ImageIcon goTojail=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/gotojail2.jpg");                                 
-    ImageIcon go=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/go2.png");
+    ImageIcon city1=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/123.jpg");
+    ImageIcon jail=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/jail2.jpg");                                 
+    ImageIcon parking=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/parking2.jpg");                                 
+    ImageIcon goTojail=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/gotojail2.jpg");                                 
+    ImageIcon go=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/go2.png");
     //images for dice faces 
     ImageIcon dice1,dice2;
     static JTextArea info=new JTextArea();
     // background of the frame   
-    ImageIcon background=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/bgfade.jpg");    
+    ImageIcon background=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/bgfade.jpg");    
     JLabel back=new JLabel("",background,JLabel.CENTER); 
     // labels where dice faces are shown
     JLabel f1,f2;
@@ -690,34 +690,34 @@ public class board extends JFrame implements ActionListener
         info.setText("Click on any city\nfor details");
         add(info);
         // images for places
-    cities[1]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/MEDIRTERRANEAN AVENUE.png");
-    cities[2]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/COMMUNITY CHEST.png");
-     cities[3]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/BALTIC AVENUE.png");
-     cities[4]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/INCOME TAX.png"); 
-     cities[5]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/READING RAILROAD.png");
-     cities[6]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ORIENTAL AVENUE.png");
-     cities[7]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/CHANCE.png");
-     cities[9]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ST. CHARLES PLACE.png");
-     cities[10]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ELECTRIC COMPANY.png");
-     cities[11]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/STATES AVENUE.png");
-     cities[12]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/VIRGINIA AVENUE.png");
-      cities[13]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/PENNSYLVANIA RAILROAD.png");
-     cities[14]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ST. JAMES PLACE.png");
-     cities[15]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/COMMUNITY CHEST 4.png");
-     cities[17]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/KENTUCKY AVENUE.png");
-     cities[18]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/CHANCE 2.png");
-     cities[19]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/INDIANA AVENUE.png");
-     cities[20]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ILLIONOIS AVENUE.png");
-     cities[21]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/B & O RAILROAD.png");
-     cities[22]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/ATLANTIC AVENUE.png");
-     cities[23]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/COMMUNITY CHEST 3.png");
-     cities[25]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/PACIFIC AVENUE.png");
-     cities[26]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/NORTH CAROLINA AVENUE.png");
-     cities[27]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/VENTNOR AVENUE.png");
-     cities[28]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/PENNSYLVANIA AVENUE.png");
-     cities[29]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/SHORT LINE.png");
-     cities[30]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/PARK PLACE.png");
-     cities[31]=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/CHANCE 3.png");
+    cities[1]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/MEDIRTERRANEAN AVENUE.png");
+    cities[2]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/COMMUNITY CHEST.png");
+     cities[3]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/BALTIC AVENUE.png");
+     cities[4]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/INCOME TAX.png"); 
+     cities[5]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/READING RAILROAD.png");
+     cities[6]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ORIENTAL AVENUE.png");
+     cities[7]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/CHANCE.png");
+     cities[9]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ST. CHARLES PLACE.png");
+     cities[10]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ELECTRIC COMPANY.png");
+     cities[11]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/STATES AVENUE.png");
+     cities[12]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/VIRGINIA AVENUE.png");
+      cities[13]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/PENNSYLVANIA RAILROAD.png");
+     cities[14]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ST. JAMES PLACE.png");
+     cities[15]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/COMMUNITY CHEST 4.png");
+     cities[17]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/KENTUCKY AVENUE.png");
+     cities[18]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/CHANCE 2.png");
+     cities[19]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/INDIANA AVENUE.png");
+     cities[20]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ILLIONOIS AVENUE.png");
+     cities[21]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/B & O RAILROAD.png");
+     cities[22]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/ATLANTIC AVENUE.png");
+     cities[23]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/COMMUNITY CHEST 3.png");
+     cities[25]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/PACIFIC AVENUE.png");
+     cities[26]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/NORTH CAROLINA AVENUE.png");
+     cities[27]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/VENTNOR AVENUE.png");
+     cities[28]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/PENNSYLVANIA AVENUE.png");
+     cities[29]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/SHORT LINE.png");
+     cities[30]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/PARK PLACE.png");
+     cities[31]=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/CHANCE 3.png");
         //  setting properties for corner squares of board
         btns[0]=new JButton(go);
         btns[0].setVisible(true);

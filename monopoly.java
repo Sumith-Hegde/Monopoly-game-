@@ -32,8 +32,8 @@ class monopoly1 extends JFrame implements ActionListener
     Container c=this.getContentPane();                                         //container to hold buttons,background,text labels etc
     Color cl=new Color(100,100,100);                                           //object of color with rgb 100,100,100
     Color c2=new Color(0,255,0);                                           //object of color with rgb 100,100,100
-    ImageIcon icon=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/icon.jpg");                                  //icon for the game
-    ImageIcon background=new ImageIcon("D:/VS code/Sumith/Projects/monopoly/images/background.jpg");                      //background image of start page
+    ImageIcon icon=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/icon.jpg");                                  //icon for the game
+    ImageIcon background=new ImageIcon("D:/VS_Code/Sumith/Projects/monopoly/images/background.jpg");                      //background image of start page
     JTextField t[]=new JTextField[4];                                          //array of text fields to hold players' name
     JLabel back=new JLabel("",background,JLabel.CENTER);                       //setting background image to the start page
     JLabel message=new JLabel("Enter player names :");                         //text object
