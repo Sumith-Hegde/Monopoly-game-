@@ -15,10 +15,7 @@ How to run :-
 
 Screeshots of the game--
 
-![Screenshot (234)](https://user-images.githubusercontent.com/87127022/139449393-1df94fb1-8bc8-429f-baba-a31dba4fa87e.png)
-![Screenshot (236)](https://user-images.githubusercontent.com/87127022/139449446-eeaabfae-dd3a-47e8-8a93-796dcc966270.png)
-![Screenshot (237)](https://user-images.githubusercontent.com/87127022/139449487-49807707-ce96-474e-a4ff-bcacb9e28cf7.png)
-![Screenshot (238)](https://user-images.githubusercontent.com/87127022/139449535-e1a848be-22f6-47be-9fc8-bdc61920e7b8.png)
-
-
-
+![Screenshot (234)](https://user-images.githubusercontent.com/87127022/179037880-d3f4f38a-7837-4f7e-ab10-56777028c64f.png)
+![Screenshot (236)](https://user-images.githubusercontent.com/87127022/179037937-bb070b12-b33e-47c5-83b2-5187223c22cd.png)
+![Screenshot (237)](https://user-images.githubusercontent.com/87127022/179037955-ef870e66-b0df-46dd-9a0b-f7948dbc9719.png)
+![Screenshot (238)](https://user-images.githubusercontent.com/87127022/179037969-8323f9ee-357e-454e-b6ac-4302c61aeacc.png)
